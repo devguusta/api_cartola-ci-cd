@@ -8,7 +8,9 @@ class Router {
       GoRoute(
         path: '/',
         builder: (BuildContext context, GoRouterState state) {
-          return const MyHomePage();
+          return const MyHomePage(
+            title: "ola",
+          );
         },
       ),
       // GoRoute(
